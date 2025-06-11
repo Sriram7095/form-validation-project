@@ -1,0 +1,62 @@
+/* Peaceful and Pure Theme */
+
+body {
+  background: linear-gradient(to bottom, #e6f0f9, #fdfdfd);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 550px;
+  margin-top: 50px;
+  background-color: #ffffff;
+  padding: 35px 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease-in-out;
+}
+
+h2 {
+  text-align: center;
+  color: #004c99;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+.form-label {
+  font-weight: 500;
+  color: #333;
+}
+
+.form-control {
+  border: 1px solid #a2c6dd;
+  border-radius: 12px;
+  padding: 10px;
+  background-color: #f8fcff;
+  transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #66b2ff;
+  box-shadow: 0 0 0 0.1rem rgba(102, 178, 255, 0.3);
+}
+
+.text-danger {
+  font-size: 0.9em;
+  margin-top: 3px;
+}
+
+.btn-primary {
+  background-color: #66b2ff;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 30px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #3399ff;
+}
